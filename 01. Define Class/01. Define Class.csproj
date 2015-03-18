@@ -41,7 +41,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Gsm.cs" />
+    <Compile Include="Battery\Battery.cs" />
+    <Compile Include="Battery\BatteryType.cs" />
+    <Compile Include="Display\Display.cs" />
+    <Compile Include="GsmProgram.cs" />
+    <Compile Include="GSM\Call.cs" />
+    <Compile Include="GSM\CallHistoryTest.cs" />
+    <Compile Include="GSM\Gsm.cs" />
+    <Compile Include="GSM\GsmTest.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
